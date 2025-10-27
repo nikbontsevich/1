@@ -1,0 +1,42 @@
+body {
+  background-image: url("images/IMG_1167.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+button {
+  position: center;
+  color: rgb(226, 216, 16);
+  background-color: rgb(203, 155, 91);
+}
+.button1 {
+  display: block; /* делаем кнопку блочным элементом, чтобы margin auto сработал */
+  margin: 0 auto; /* центрируем по горизонтали */
+  width: 150px; /* (по желанию) фиксируем ширину, если нужно */
+  text-align: center; /* выравниваем текст внутри кнопки */
+}
+p {
+  text-align: center;
+  margin: 5%;
+  font-style: normal;
+  font-size: larger;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.apple {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+.carrot {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}

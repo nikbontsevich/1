@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="icon" href="images/icon1.png" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AICompass</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pBw8W/3E4K4v4pLY7fDc1ojMX2APr1Xfyb9FQen2r6VK8uTP7VX3NftX0bXbmMz9"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      h1 {
+        margin-top: 30px;
+        padding-bottom: 20px;
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 50px;
+      }
+      body {
+        background-image: linear-gradient(
+          to top,
+          #f3e7e9 0%,
+          #e3eeff 99%,
+          #e3eeff 100%
+        );
+      }
+      .rounded-img {
+        border: 9px solid #a0d1f1;
+        width: 400px; /* Фиксируем ширину */
+        height: 400px; /* Делаем высоту равной ширине */
+        border-radius: 40%; /* Превращаем изображение в круг */
+        object-fit: cover; /* Чтобы изображение не растягивалось */
+        box-shadow: 0 0 20px rgba(26, 9, 9, 0.4);
+        margin: 0 auto;
+        padding: 0.5em;
+      }
+      .footer {
+        display: flex;
+        height: 250px;
+
+        background-color: #dcd0f1;
+      }
+      .footer-text {
+        margin: auto;
+        color: black/.2;
+        font-weight: 300;
+        height: auto;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Логотип (ссылка на главную) -->
+        <a class="navbar-brand" href="index.html">
+          <img src="./skills.png" alt="skills" width="120" />
+        </a>
+
+        <!-- Кнопка-toggler (гамбургер) для мобильных -->
+        <button
+          href="cases.html"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Сворачиваемая часть меню -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="cases.html">
+                Сценарии использования
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <img
+            class="rounded-img"
+            src="https://vancouverok.com/wp-content/webp-express/webp-images/uploads/2018/11/moraine3-scaled.jpg.webp"
+            alt="Цветная фотография гор в тумане"
+            width="400"
+          />
+
+          <h1 class="fw-light">Привет!</h1>
+          <input type="range" min="10" max="100" />
+          <p>Значение <span>50</span></p>
+          <p class="lead text-muted">
+            <a href="https://ru.wikipedia.org/wiki/ChatGPT" target="_blank"
+              >Эта
+            </a>
+
+            статья нужна даже если ты никогда не слышал про ИИ или компьютерные
+            алгоритмы, всё равно нужно пользоваться такой штукой как
+            <a href="https://chatgpt.com" target="_blank">ChatGPT</a>
+          </p>
+          <p class="lead text-muted">
+            Этот текст нужен для того чтобы тренироваться
+          </p>
+          <p class="lead text-muted">
+            ChatGPT (от англ. Generative Pre-trained Transformer «генеративный
+            предварительно обученный трансформер») — чат-бот с генеративным
+            искусственным интеллектом, разработанный компанией OpenAI и
+            способный работать в диалоговом режиме, поддерживающий запросы на
+            естественных языках.
+          </p>
+
+          <p class="lead text-muted">
+            Вы когда-нибудь задумывались, как искусственный интеллект может
+            стать вашим помощником? Даже если вы никогда не слышали про ИИ или
+            алгоритмы, познакомьтесь с ChatGPT — настоящим прорывом в мире
+            технологий! Этот умный чат-бот, созданный компанией OpenAI, способен
+            вести увлекательные диалоги, помогать решать задачи, писать тексты и
+            даже генерировать программы.
+          </p>
+
+          <p class="lead text-muted">
+            ChatGPT — это «генеративный предварительно обученный трансформер»,
+            который умеет общаться на естественном языке. С его помощью вы
+            можете задать любой вопрос — от научной теории до планирования
+            отпуска — и получить ответ, будто вы разговариваете с экспертом или
+            другом. ChatGPT понимает множество языков, включая русский, и
+            способен помогать в самых разных сферах.
+          </p>
+          <a
+            href="https://music.yandex.ru/iframe/#playlist/ynx-praktikum/1002"
+            target="_blank"
+            class="btn btn-warning"
+          >
+            Яндекс Музыка
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h3 class="footer-text">
+        Это подвал сайта. Здесь будут тестироваться важные функции и
+        нововведения. Подвал сайта нужен для сноса важных данных, которые имею
+        непосредственное отношение к сайту. В подвале сайта обычно включатся
+        данные разного типа: Контактыне телефоны(поддержка, менеджеры),
+        рекламные контракты, сноски и прочие данные.
+      </h3>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pBw8W/3E4K4v4pLY7fDc1ojMX2APr1Xfyb9FQen2r6VK8uTP7VX3NftX0bXbmMz9"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
